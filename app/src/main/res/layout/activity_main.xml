@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:gravity="left"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RadioButton
+            android:id="@+id/rdbMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="MA"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rdbBE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="BE"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rdbMCA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="MCA"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rdbMBBS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="MBBS"
+            android:textSize="20dp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="OnSelectOption"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:text="select"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
