@@ -8,7 +8,7 @@
     android:layout_margin="30dp"
     android:gravity="left"
     android:layout_centerHorizontal="true"
-    tools:context=".MainActivity">
+    tools:context=".RadioButtonActivity">
 
     <RadioGroup
         android:id="@+id/radioGroup"

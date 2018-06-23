@@ -10,7 +10,7 @@
 
 
     <CheckBox
-        android:id="@+id/chbcoffee"
+        android:id="@+id/chbCoffee"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
@@ -37,12 +37,20 @@
         android:layout_marginTop="10dp"
         />
     <CheckBox
-        android:id="@+id/chbCock"
+        android:id="@+id/chbColdDrinks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:text="Cock"
+        android:text="Cold Drinks"
         android:textColor="@color/colorPrimary"
         android:layout_marginTop="10dp"
         />
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Select"
+        android:background="@color/colorAccent"/>
 </LinearLayout>

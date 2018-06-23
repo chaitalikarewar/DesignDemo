@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/btnRelLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToRealtiveActivity"
+        android:text="RealtiveLayout"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToCheckBoxActivity"
+        android:text="CheckBox"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToRadioButtonActivity"
+        android:text="Radio Button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToSpinnerActivity"
+        android:text="Spinner"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnAutoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToAutoCompleteTextview"
+        android:text="Auto Complete  Textview"
+        android:textColor="@color/white" />
+</LinearLayout>
